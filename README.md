@@ -20,4 +20,12 @@ Usage:
 
 Command-line options:
 
--h          Show this help
+    build/elas [options] leftImage rightImage
+
+    -h         show this help information
+    -r         save raw disparities as a TIFF file
+    -s suffix  add suffix to output file names (default '_disp_')
+
+Default is to write scaled, colorized disparities to .png file
+using the given suffix.
+
