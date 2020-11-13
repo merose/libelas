@@ -1,4 +1,4 @@
-# elas
+# libelas
 Modification of LIBELAS stereo matching library
 
 See README.txt for the original README from LIBELAS.
