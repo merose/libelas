@@ -2,6 +2,9 @@
 cmake_minimum_required (VERSION 2.6)
 project (libelas)
 
+# OpenCV dependency
+find_package( OpenCV REQUIRED )
+
 # directories
 set (LIBELAS_SRC_DIR src)
 
@@ -19,4 +22,5 @@ set(CMAKE_BUILD_TYPE Release)
 
 # build demo program
 add_executable(elas ${LIBELAS_SRC_FILES})
+target_link_libraries(elas ${OpenCV_LIBS})
 

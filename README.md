@@ -11,3 +11,13 @@ See README.txt for the original README from LIBELAS.
     cd build
     cmake ..
     make
+
+## Running
+
+Usage:
+
+    elas [options] leftImage rightImage
+
+Command-line options:
+
+-h          Show this help
